@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Set default meta.title and/or meta.site in src/_data/meta.json -->
+    {% if meta.title or meta.site -%}
+      <title>{{ meta.title }}{% if meta.title and meta.site %} | {% endif %}{{ meta.site }}</title>
+    {%- endif %}
+
+    <!-- Emoji favicon https://twitter.com/LeaVerou/status/1241619866475474946 -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%22-5%22 y=%2280%22 font-size=%2280%22>🕛</text></svg>">
+
+    <!-- Some basic meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Set default meta.description in src/_data/meta.json -->
+    {% if meta.description -%}
+      <meta name="description" content="{{ meta.description }}">
+    {%- endif %}
+
+    <!-- Page styles will be moved here, see bottom of file -->
+  </head>
+  <body>
+    <!-- Include your components just like normal -->
+    {% include 'header.html' %}
+
+    <!-- Page content -->
+    {{ content }}
+
+    <!-- CSS included in every page using this layout -->
+    {% stylesheet 'scss' %}
+      @import 'main';
+    {% endstylesheet %}
+
+    <!-- JS included in every page using this layout -->
+    {% javascript %}
+      // instant.page preloads pages for you
+      // Documentation: https://instant.page
+      require('instant.page')
+    {% endjavascript %}
+
+    <!-- Capture all JS included in this page -->
+    {% capture js -%}
+      {% script page.url %}
+    {%- endcapture -%}
+
+    <!-- Defer page script -->
+    <script src="{% asset js, 'js' %}" defer></script>
+
+    <!-- Append everything inside to head, see README for more information -->
+    {% append 'head' %}
+      <!-- Capture all CSS included in this page -->
+      {% capture css -%}
+        {% styles page.url %}
+      {%- endcapture -%}
+      <!-- Capture href of CSS asset for further use -->
+      {% capture href -%}
+        {% asset css, 'css' %}
+      {%- endcapture -%}
+
+      {% if twelvety.env == 'production' -%}
+        <!-- Defer non-critical CSS https://web.dev/defer-non-critical-css -->
+        <link rel="preload" href="{{ href }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript>
+          <link rel="stylesheet" href="{{ href }}">
+        </noscript>
+        <!-- In production, critical CSS will be inserted below -->
+      {%- else -%}
+        <!-- In development, just include render-blocking stylesheet -->
+        <link rel="stylesheet" href="{{ href }}">
+      {%- endif %}
+    {% endappend %}
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<!--
+  Templates can look very similar to components (like header.html) with the HTML at the top and the
+  corresponding 'stylesheet' and 'javascript' paired shortcodes below.
+-->
+
+<main class="home">
+  <h1 class="home__title">The Fastest Eleventy Starter&nbsp;Project</h1>
+  <article class="home__content">
+    <!--
+      Include Markdown using the 'markdown' paired shortcode. Make sure that you strip whitespace
+      (notice the hyphens in the opening and closing tag).
+    -->
+    {% markdown -%}
+      {% include 'content.md' %}
+    {%- endmarkdown %}
+    <!--
+      Here's an example of the picture shortcode which outputs a responsive picture with WebP support;
+      Parameters are src, alt, sizes and loading (lazy or eager). Sizes and loading are optional.
+    -->
+    {% picture 'car.jpg', 'Panning photo of grey coupe on road', '90vw', 'lazy' %}
+  </article>
+</main>
+
+{% stylesheet 'scss' %}
+  // Import sass from your styles directory
+  @import 'mixins';
+
+  .home {
+    @include container;
+
+    margin-bottom: 4rem;
+
+    &__title {
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+    }
+
+    &__content > * + {
+      * {
+        margin-top: 1rem;
+      }
+
+      picture,
+      p > picture:only-child {
+        margin-top: 2rem;
+      }
+    }
+  }
+{% endstylesheet %}
+
+{% javascript %}
+  console.log('Super fast 💨')
+{% endjavascript %}

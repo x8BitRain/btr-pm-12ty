@@ -1,0 +1,44 @@
+{
+  "name": "twelvety",
+  "version": "1.1.0",
+  "description": "A pre-configured, super-fast Eleventy starter project",
+  "scripts": {
+    "clean": "rimraf dist .twelvety.cache",
+    "build": "cross-env ELEVENTY_ENV=production eleventy",
+    "watch": "cross-env ELEVENTY_ENV=development eleventy --watch",
+    "serve": "cross-env ELEVENTY_ENV=development eleventy --serve"
+  },
+  "repository": "https://github.com/gregives/twelvety",
+  "keywords": [
+    "eleventy",
+    "starter",
+    "project"
+  ],
+  "author": "Greg Ives",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "autoprefixer": "^10.2.1",
+    "browserify": "^17.0.0",
+    "clean-css": "^4.2.3",
+    "critical": "^2.0.6",
+    "cross-env": "^7.0.3",
+    "deasync": "^0.1.21",
+    "html-minifier": "^4.0.0",
+    "instant.page": "^5.1.0",
+    "js-beautify": "^1.13.1",
+    "module-alias": "^2.2.2",
+    "node-sass": "^5.0.0",
+    "normalize.css": "^8.0.1",
+    "npm-run-all": "^4.1.5",
+    "outdent": "^0.8.0",
+    "postcss": "^8.2.4",
+    "postcss-preset-env": "^6.7.0",
+    "rimraf": "^3.0.2",
+    "sharp": "^0.27.0",
+    "tinyify": "^3.0.0",
+    "uglify-js": "^3.12.4"
+  }
+}
