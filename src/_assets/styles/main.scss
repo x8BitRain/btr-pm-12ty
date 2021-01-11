@@ -12,14 +12,14 @@ img {
   width: 100%;
 }
 
-picture {
-  display: block;
-  position: relative;
-
-  > img {
-    position: absolute;
-  }
-}
+//picture {
+//  display: inline-flex;
+//  position: relative;
+//
+//  > img {
+//    position: absolute;
+//  }
+//}
 
 ul {
   padding-left: 2rem;

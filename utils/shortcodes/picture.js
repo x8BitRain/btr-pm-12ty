@@ -116,9 +116,22 @@ module.exports = function(src, alt, sizes = '90vw, (min-width: 1280px) 1152px', 
     return images
   }, {})
 
+  // Save responsive images in avif format
+  const avifFormat = SIZES.reduce((images, width) => {
+    images[width] = (cachePicture && cachePicture.avif.hasOwnProperty(width))
+      ? cachePicture.avif[width]
+      : saveImageFormat(original, width, 'avif')
+    return images
+  }, {})
+
   // Image descriptor with width
   const webpFormatDesc = SIZES.map((size) => {
     return `${webpFormat[size]} ${size}w`
+  })
+
+  // Image descriptor with width
+  const avifFormatDesc = SIZES.map((size) => {
+    return `${avifFormat[size]} ${size}w`
   })
 
   // Use largest same format image as fallback
@@ -130,6 +143,7 @@ module.exports = function(src, alt, sizes = '90vw, (min-width: 1280px) 1152px', 
   // Responsive picture with srcset and native lazy loading
   const picture = `
     <picture style="background-color:${color};padding-bottom:${ratio}%">
+      <source srcset="${avifFormatDesc.join(',')}" sizes="${sizes}" type="image/avif">
       <source srcset="${webpFormatDesc.join(',')}" sizes="${sizes}" type="image/webp">
       <source srcset="${sameFormatDesc.join(',')}" sizes="${sizes}" type="image/${format}">
       <img src="${fallback}" alt="${alt}" loading="${loading}">
@@ -139,7 +153,8 @@ module.exports = function(src, alt, sizes = '90vw, (min-width: 1280px) 1152px', 
   // Add picture to cache
   cache[imageHash] = {
     same: sameFormat,
-    webp: webpFormat
+    webp: webpFormat,
+    avif: avifFormat
   }
 
   // Save cache file

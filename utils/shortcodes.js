@@ -2,6 +2,7 @@ const addStylesheetShortcodes = require('./shortcodes/stylesheet')
 const addJavascriptShortcodes = require('./shortcodes/javascript')
 const pictureShortcode = require('./shortcodes/picture')
 const assetShortcode = require('./shortcodes/asset')
+const Image = require("@11ty/eleventy-img");
 
 // Instance of markdown-it
 const markdown = require('./markdown')
