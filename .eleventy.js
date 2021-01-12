@@ -24,7 +24,7 @@ module.exports = function (config) {
   // Deep merge when combining the Data Cascade
   // Documentation: https://www.11ty.dev/docs/data-deep-merge/
   config.setDataDeepMerge(true)
-
+  config.addPassthroughCopy("src/_assets/images/icons");
   // Options for LiquidJS
   // Documentation: https://liquidjs.com/tutorials/options.html
   config.setLiquidOptions({

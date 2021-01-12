@@ -3,13 +3,14 @@
 @import 'mixins';
 
 html {
-  font-family: system-ui;
+  font-family: 'B612', sans-serif;
+  -webkit-font-smoothing: antialiased;
   line-height: 1.5;
 }
 
 img {
   display: block;
-  width: 100%;
+  //width: 100%;
 }
 
 //picture {

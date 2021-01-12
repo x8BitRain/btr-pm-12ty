@@ -1,0 +1,31 @@
+.header {
+  margin: 30px;
+  box-shadow:
+    0 8px 25px 0 rgba(0,0,0,0.1),
+    0 0px 10px -5px rgba(0,0,0,0.04);
+  .header_content {
+    padding: 15px 20px 15px 20px;
+    display: flex;
+    align-items: center;
+    .header_content-links {
+      display: flex;
+      flex-flow: wrap;
+      align-items: center;
+    }
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .header {
+    img {
+      margin: 0 auto;
+      width: -webkit-fill-available;
+    }
+    .header_content {
+      display: block !important;
+      .header_content-links {
+        justify-content: center;
+      }
+    }
+  }
+}

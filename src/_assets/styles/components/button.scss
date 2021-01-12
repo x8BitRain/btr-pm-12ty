@@ -1,0 +1,90 @@
+/*by https://cssfx.dev/*/
+
+button {
+  z-index: 1;
+  position: relative;
+  font-size: 1.2em !important;
+  font-family: inherit;
+  color: #000000;
+  padding: 0.5em 1em;
+  outline: none;
+  border: none;
+  background-color: #ffffff00;
+  overflow: hidden;
+  transition: color 0.4s ease-in-out;
+}
+
+button::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #1E87F0;
+  transform-origin: bottom right;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+
+.u {
+  position: relative;
+}
+
+.u::before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #1E87F0;
+  transform-origin: bottom left;
+  transform: scaleX(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #161616;
+}
+
+button:hover::before {
+  transform-origin: bottom left;
+  transform: scaleX(1)
+}
+
+a {
+  position: relative;
+  text-decoration: none !important;
+}
+
+a::before {
+  /*content: '';*/
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #1E87F0;
+  transform-origin: bottom right;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+
+a:hover::before {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
+
+a#l::before, #content > a:before {
+  background-color: #C4C4C4;
+  position:absolute;
+  top:45px !important;
+  z-index: -1;
+}
+
+a#l:hover::before {
+  transform: scaleX(1);
+}
+

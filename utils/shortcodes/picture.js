@@ -60,6 +60,9 @@ function saveImageFormat(image, width, format) {
 
   // Save buffer of formatted image
   const buffer = deasyncSharp(formatted, 'toBuffer')
+  const filePath = image.options.input.file.split('/')
+  const fileName = filePath.slice(-1)[0]
+  console.log(`Saved ${fileName} to ${format}`)
   return saveAsset(buffer, format)
 }
 

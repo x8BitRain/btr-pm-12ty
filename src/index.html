@@ -4,11 +4,10 @@
 -->
 
 <main class="home">
-
   <section id="photos">
     {% for i in photos.photos %}
     {% assign photo = 'photos/' | append: i %}
-      {% picture photo, '', '', 'lazy' %}
+      {% picture photo, '' %}
     {% endfor %}
   </section>
 
