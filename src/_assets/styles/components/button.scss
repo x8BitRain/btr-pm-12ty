@@ -27,11 +27,11 @@ button::before {
   transition: transform 0.5s ease;
 }
 
-.u {
+[aria-current] {
   position: relative;
 }
 
-.u::before {
+[aria-current]::before {
   content: '';
   position: absolute;
   height: 1px;

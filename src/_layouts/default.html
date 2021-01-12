@@ -24,11 +24,14 @@
     <!-- Page styles will be moved here, see bottom of file -->
   </head>
   <body>
-    <!-- Include your components just like normal -->
+    <!-- Header Component -->
     {% include 'header.html' %}
 
     <!-- Page content -->
     {{ content }}
+
+    <!-- Footer Component -->
+    {% include 'footer.html' %}
 
     <!-- CSS included in every page using this layout -->
     {% stylesheet 'scss' %}

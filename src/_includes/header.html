@@ -6,8 +6,8 @@
         <img width="250" height="100" src="/_assets/images/icons/btr.svg" alt="Home">
       </a>
       <div class="header_content-links">
-        {% for link in navigation.links %}
-          <a href="{{link.link}}">
+        {% for link in navigation.header %}
+          <a href="{{link.link}}" {% if page.url == link.link %}aria-current{% endif %}>
             <button>{{link.name}}</button>
           </a>
         {% endfor %}

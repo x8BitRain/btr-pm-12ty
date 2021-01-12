@@ -1,0 +1,22 @@
+
+<footer class="footer">
+  <nav>
+    <div class="footer_content">
+      <div class="footer_content-links">
+        {% for link in navigation.footer %}
+          <a href="{{link.link}}" target="_blank">
+            <img src="{{link.img}}" alt="{{link.name}}">
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </nav>
+</footer>
+
+{% stylesheet 'scss' %}
+
+  @import 'mixins';
+  @import 'components/footer';
+  @import 'components/button';
+
+{% endstylesheet %}

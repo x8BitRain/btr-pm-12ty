@@ -1,5 +1,5 @@
 {
-  "links": [
+  "header": [
     {
       "name": "Photos",
       "link": "/"
@@ -15,6 +15,33 @@
     {
       "name": "Contact",
       "link": "/contact"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Email",
+      "link": "/",
+      "img": "/_assets/images/icons/mail.svg"
+    },
+    {
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/dashbell",
+      "img": "/_assets/images/icons/linkedin.svg"
+    },
+    {
+      "name": "Instagram",
+      "link": "http://instagram.com/dash.bell",
+      "img": "/_assets/images/icons/instagram.svg"
+    },
+    {
+      "name": "GitHub",
+      "link": "https://github.com/x8BitRain",
+      "img": "/_assets/images/icons/github.svg"
+    },
+    {
+      "name": "CodePen",
+      "link": "https://codepen.io/BitRain",
+      "img": "/_assets/images/icons/codepen.svg"
     }
   ]
 }
