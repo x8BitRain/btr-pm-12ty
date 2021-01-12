@@ -19,6 +19,16 @@
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .footer_content {
+    padding: 20px !important;
+    .footer_content-links {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+}
+
 @media screen and (max-width: 570px) {
   .footer_content-links {
     justify-content: center;

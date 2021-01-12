@@ -1,0 +1,42 @@
+<!--
+  Templates can look very similar to components (like header.html) with the HTML at the top and the
+  corresponding 'stylesheet' and 'javascript' paired shortcodes below.
+-->
+
+<main class="projects">
+  <section id="project_list">
+    {% for proj in projects.all %}
+    {% assign pic = 'projects/' | append: proj.image %}
+
+
+    {% assign reverse = forloop.index | modulo:2 %}
+    <div class="item_card-container reverse-{{reverse}}">
+      <div class="item_card-image">
+        {% picture pic, proj.title %}
+      </div>
+      <div class="item_card-text">
+        <h3>
+          {{proj.title}}
+          <span class="item_card-label" style="background: {{proj.labelColor}}">{{proj.label}}</span>
+        </h3>
+        <p>{{proj.body}}</p>
+        {% for link in proj.links %}
+        <div>
+          <a href="{{link.link}}">{{link.linkText}}</a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+</main>
+
+{% stylesheet 'scss' %}
+  @import 'mixins';
+  @import 'projects';
+{% endstylesheet %}
+
+{% javascript %}
+  console.log('Super fast 💨')
+{% endjavascript %}

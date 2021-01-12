@@ -1,0 +1,178 @@
+{
+  "all": [
+    {
+      "title": "thestarposter.com",
+      "label": "Vue",
+      "labelColor": "#3fba84",
+      "body": "A web based interactive poster editor for mobile and desktop for Heureka Prints with a 3D celestial map that accurately displays the night sky at a given date, time and location. Built in VueJS.",
+      "links": [
+        {
+          "link": "https://thestarposter.com/",
+          "linkText": "Thestarposter.com"
+        },
+        {
+          "link": "https://heurekaprints.com/",
+          "linkText": "Heureka Prints"
+        }
+      ],
+      "image": "thestarposter.jpg",
+      "video": "thestarposter.mp4"
+    },
+    {
+      "title": "CitySize",
+      "label": "React",
+      "labelColor": "#61dbfb",
+      "body": "A progressive web app and interactive map built with leaflet in React that lets you accurately compare geographic features like countries, cities, states and even buildings. Inspired by thetruesizeof.com and powered by nominatim.openstreetmap.org GeoJSON data.",
+      "links": [
+        {
+          "link": "https://x8bitrain.github.io/citysize/",
+          "linkText": "CitySize"
+        },
+        {
+          "link": "https://github.com/x8BitRain/citysize",
+          "linkText": "Github"
+        }
+      ],
+      "image": "citysize.jpg",
+      "video": "citysize.mp4"
+    },
+    {
+      "title": "SVG2PNG",
+      "label": "React",
+      "labelColor": "#61dbfb",
+      "body": "A small set of tools for exporting SVGs to scaled PNGs and data URIs wrapped into a simple web UI written in React.",
+      "links": [
+        {
+          "link": "https://x8bitrain.github.io/svg2png/",
+          "linkText": "svg2png"
+        },
+        {
+          "link": "hhttps://github.com/x8BitRain/svg2png",
+          "linkText": "Github"
+        }
+      ],
+      "image": "svg2png.jpg"
+    },
+    {
+      "title": "Corrupt.wiki",
+      "label": "Gitbook",
+      "labelColor": "#264de4",
+      "body": "An open source wiki running GitBook where documentation on the art of corrupting video games is available.\n\n",
+      "links": [
+        {
+          "link": "https://corrupt.wiki/",
+          "linkText": "corrupt.wiki"
+        },
+        {
+          "link": "https://github.com/x8BitRain/corruption-wiki-media",
+          "linkText": "Github backend"
+        }
+      ],
+      "image": "corruptwiki.jpg"
+    },
+    {
+      "title": "SVG/Emoji Corrupt",
+      "label": "React",
+      "labelColor": "#61dbfb",
+      "body": "An experiment in SVG manipulation built in React. The app takes an inline SVG, reads the d=\"\" paths and replaces the targeted numbers with the numbers you set in the control panel. All the emojis in the menu are SVGs loaded from the Twemoji CDN.",
+      "links": [
+        {
+          "link": "https://x8bitrain.github.io/svg-emoji-corrupt/",
+          "linkText": "SVG/Emoji Corrupt"
+        },
+        {
+          "link": "https://github.com/x8BitRain/svg-emoji-corrupt",
+          "linkText": "Github"
+        }
+      ],
+      "image": "svg-emoji-corrupt.jpg",
+      "video": "svgemoji.mp4"
+    },
+    {
+      "title": "Ticket2Calendar",
+      "label": "React/XZingJS",
+      "labelColor": "#61dbfb",
+      "body": "A fully clientside boarding pass scanner in your browser. Built in React, using a web assembly build of the barcode scanning library xzing. Take any boarding pass with a PDF-417 or Aztec barcode and scan it to view your flight itinerary and add it to any popular online calendar. Only works on stable Chrome unfortunately",
+      "links": [
+        {
+          "link": "https://x8bitrain.github.io/ticket2calendar/",
+          "linkText": "ticket2calendar"
+        },
+        {
+          "link": "https://github.com/x8BitRain/ticket2calendar",
+          "linkText": "Github"
+        }
+      ],
+      "image": "ticket2calendar.jpg"
+    },
+    {
+      "title": "thepixelgrid.org",
+      "label": "Rails",
+      "labelColor": "#c00",
+      "body": "Built in collaboration with Max Synnott pixelGrid is a realtime collaborative online canvas anyone can draw pixels on for charity, inspired by Reddit's /r/place experiment. The pixel placements update in real time so you can draw with others! The app is a fixed height HTML5 canvas built on Rails, uses websockets for real time pixel placement updates, sidekiq for queued database updates and UIKit for the frontend.\n\n",
+      "links": [
+        {
+          "link": "https://github.com/maxsynnott/pixel_grid",
+          "linkText": "Github"
+        }
+      ],
+      "image": "pixelgrid.jpg"
+    },
+    {
+      "title": "Rumreggae-Bali.net",
+      "label": "HTML/CSS/WP",
+      "labelColor": "#264de4",
+      "body": "The website and bio of Rum Reggae Indonesia, a traditional batik shirt company. Designed and themed around photos of their factory and products. Also an experiment in staticizing WordPress pages, hosted on GitHub pages.\n\n",
+      "links": [
+        {
+          "link": "https://rumreggae-bali.net/",
+          "linkText": "rumreggae-bali.net"
+        }
+      ],
+      "image": "rumreggae.jpg"
+    },
+    {
+      "title": "SourceRuns Forum",
+      "label": "CSS",
+      "labelColor": "#264de4",
+      "body": "A forum for the Source Engine speedrunning community. I made the CSS layout for the SMF forum software they used to run (now uses Discourse).",
+      "links": [
+        {
+          "link": "https://web.archive.org/web/20160910153329/https://forums.sourceruns.org/",
+          "linkText": "sourceruns.org (archive)"
+        }
+      ],
+      "image": "sourceruns.jpg"
+    },
+    {
+      "title": "btr.pm",
+      "label": "Vue/Nuxt",
+      "labelColor": "#47b984",
+      "body": "The website you're on now! Built from scratch using UIKit, VueJS components in NuxtJS, also an experiment in image compression and content delivery optimization. I have a writeup on how I built it originally in plain HTML/CSS on the blog section of the website.",
+      "links": [
+        {
+          "link": "https://btr.pm/",
+          "linkText": "btr.pm/"
+        },
+        {
+          "link": "https://btr.pm/blog/building-a-website-from-scratch/",
+          "linkText": "Writeup"
+        }
+      ],
+      "image": "btrpm.jpg"
+    },
+    {
+      "title": "Singapore Airshow 2018",
+      "label": "PHOTOS",
+      "labelColor": "#264de4",
+      "body": "A collection of photos taken of the aerobatic displays at the 2018 Singapore Airshow.",
+      "links": [
+        {
+          "link": "https://btr.pm/projects/singapore-airshow-2018",
+          "linkText": "View Album"
+        }
+      ],
+      "image": "airshow.jpg"
+    }
+  ]
+}

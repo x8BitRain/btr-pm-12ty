@@ -1,0 +1,23 @@
+@import "components/item-card";
+
+body {
+  margin: 0 10% !important;
+}
+
+.header, .footer {
+  margin: 0 !important;
+  margin-top: 30px !important;
+}
+
+.footer {
+  margin-bottom: 30px !important;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    margin: 0 2% !important;
+  }
+  .header, .footer {
+    margin-top: 5px !important;
+  }
+}

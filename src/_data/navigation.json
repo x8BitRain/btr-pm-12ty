@@ -6,21 +6,21 @@
     },
     {
       "name": "Projects",
-      "link": "/projects"
+      "link": "/projects/"
     },
     {
       "name": "Blog",
-      "link": "/blog"
+      "link": "/blog/"
     },
     {
       "name": "Contact",
-      "link": "/contact"
+      "link": "/contact/"
     }
   ],
   "footer": [
     {
       "name": "Email",
-      "link": "/",
+      "link": "mailto:&#100;&#98;&#101;&#108;&#108;&#64;&#98;&#116;&#114;&#46;&#112;&#109;",
       "img": "/_assets/images/icons/mail.svg"
     },
     {

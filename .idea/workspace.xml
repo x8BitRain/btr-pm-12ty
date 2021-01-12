@@ -2,22 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bb50285-e9b8-499c-842f-47a6cef03a8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/icons/check.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/icons/codepen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/icons/copy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/icons/github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/icons/gmail.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/icons/instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/icons/linkedin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/icons/mail.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/icons/outlook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/styles/components/footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_includes/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/airshow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/bak/pixelgrid.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/bak/ticket2calendar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/btrpm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/citysize.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/citysize.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/corruptwiki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/pixelgrid.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/rumreggae.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/sourceruns.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/svg-emoji-corrupt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/svg2png.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/svgemoji.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/thestarposter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/thestarposter.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/ticket2calendar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/styles/components/item-card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/styles/projects.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_data/projects.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_assets/styles/components/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_assets/styles/components/button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_assets/styles/components/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_assets/styles/components/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_assets/styles/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_assets/styles/components/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_assets/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_assets/styles/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_data/navigation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/_data/navigation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/_includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +53,25 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_assets/styles/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_assets/images" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/_assets/images" />
+      <recent name="$PROJECT_DIR$/src/_assets/styles" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/_assets/styles/components" />
       <recent name="$PROJECT_DIR$/src/_assets/images/icons" />
-      <recent name="$PROJECT_DIR$/src/_includes" />
-      <recent name="$PROJECT_DIR$/src/_assets/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/_assets/images/projects/bak" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610381208472</updated>
-      <workItem from="1610381209767" duration="16168000" />
+      <workItem from="1610381209767" duration="24435000" />
     </task>
     <servers />
   </component>
