@@ -8,7 +8,6 @@
     {% for proj in projects.all %}
     {% assign pic = 'projects/' | append: proj.image %}
 
-
     {% assign reverse = forloop.index | modulo:2 %}
     <div class="item_card-container reverse-{{reverse}}">
       <div class="item_card-image">
