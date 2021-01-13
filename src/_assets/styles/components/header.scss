@@ -1,9 +1,14 @@
 .header {
+  position: relative;
+  width: 100%;
+  height: auto;
   margin: 30px;
   box-shadow:
     0 8px 25px 0 rgba(0,0,0,0.1),
     0 0px 10px -5px rgba(0,0,0,0.04);
   .header_content {
+    width: 100%;
+    height: 100%;
     padding: 15px 20px 15px 20px;
     display: flex;
     align-items: center;
@@ -15,6 +20,20 @@
   }
 }
 
+#fun-canvas {
+  //opacity: 1%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  animation: fadein 8.5s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 85%; }
+}
+
 @media screen and (max-width: 1000px) {
   .header {
     margin: 10px;
@@ -22,16 +41,16 @@
 }
 
 @media screen and (max-width: 570px) {
-  .header {
-    img {
-      margin: 0 auto;
-      width: -webkit-fill-available;
-    }
-    .header_content {
-      display: block !important;
-      .header_content-links {
-        justify-content: center;
-      }
-    }
+.header {
+img {
+  margin: 0 auto;
+  width: -webkit-fill-available;
+}
+.header_content {
+  display: block !important;
+  .header_content-links {
+    justify-content: center;
   }
+}
+}
 }

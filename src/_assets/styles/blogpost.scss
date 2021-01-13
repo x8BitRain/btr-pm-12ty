@@ -1,0 +1,62 @@
+@import "blog";
+@import 'components/code-style.scss';
+
+body {
+  padding: 0 2vw;
+  margin: 0 auto !important;
+  max-width: 1080px;
+}
+
+.blog_content {
+  margin: 20px 0 20px 0;
+  box-shadow:
+    0 8px 25px 0 rgba(0,0,0,0.1),
+    0 0 10px -5px rgba(0,0,0,0.04);
+}
+
+article {
+  margin: 0 auto;
+  padding: 40px;
+  img {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 35px 0;
+    box-shadow:
+      0 0 20px -10px rgba(0,0,0,0.25);
+  }
+  blockquote {
+    font-size: 1.1rem;
+    overflow-wrap: break-word;
+  }
+  h1 {
+    margin: 0;
+    font-size: 2.625rem;
+    font-weight: normal;
+    line-height: 1.2;
+  }
+  h5 {
+    margin: 20px 0 20px 0;
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  h6 {
+    margin: 20px 0 30px 0;
+    text-align: center;
+    line-height: 1.4;
+    font-weight: normal;
+    font-size: 0.95em;
+  }
+
+  em {
+    color: #5d5d5d;
+  }
+}
+
+// Specific CSS tweaks per article
+article img[alt='787 Dreamliner'],
+article img[alt='Code example'] {
+  box-shadow: none !important;
+}

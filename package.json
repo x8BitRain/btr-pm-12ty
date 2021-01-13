@@ -41,5 +41,8 @@
     "sharp": "^0.27.0",
     "tinyify": "^3.0.0",
     "uglify-js": "^3.12.4"
+  },
+  "devDependencies": {
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6"
   }
 }

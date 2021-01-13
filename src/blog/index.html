@@ -1,0 +1,37 @@
+---
+eleventyExcludeFromCollections: true
+---
+
+<main class="blog">
+  <section id="blog_list">
+    {% assign posts = collections.blogpost | reverse %}
+    {% for post in posts %}
+    {% assign pic = 'blog/' | append: post.data.slug | append: '/' | append: post.data.img %}
+
+    {% assign reverse = forloop.index | modulo:2 %}
+    <div class="item_card-container reverse-{{reverse}}">
+      <div class="item_card-image">
+        {% picture pic, post.data.title %}
+      </div>
+      <div class="item_card-text">
+        <a href="{{post.url}}">
+          <h3>
+            {{post.data.title}}
+            <span class="item_card-label">{{post.data.label}}</span>
+          </h3>
+        </a>
+        <p>{{post.data.description}}</p>
+        <p>{{post.data.published}}</p>
+        <div>
+          <a href="{{post.url}}">READ</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+</main>
+
+{% stylesheet 'scss' %}
+@import 'mixins';
+@import 'blog';
+{% endstylesheet %}

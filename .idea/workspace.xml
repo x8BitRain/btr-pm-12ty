@@ -2,34 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bb50285-e9b8-499c-842f-47a6cef03a8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/airshow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/bak/pixelgrid.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/bak/ticket2calendar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/btrpm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/citysize.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/citysize.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/corruptwiki.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/pixelgrid.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/rumreggae.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/sourceruns.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/svg-emoji-corrupt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/svg2png.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/svgemoji.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/thestarposter.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/thestarposter.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/ticket2calendar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/styles/components/item-card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_assets/styles/projects.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_data/projects.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/LDR_LLL1_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fluid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/boeing-787-in-flight-entertainment-system-security-fun/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/boeing-787-in-flight-entertainment-system-security-fun/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/boeing-787-in-flight-entertainment-system-security-fun/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/boeing-787-in-flight-entertainment-system-security-fun/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/boeing-787-in-flight-entertainment-system-security-fun/787.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/boeing-787-in-flight-entertainment-system-security-fun/preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/goog-fonts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/blog/building-a-website-from-scratch/preview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/styles/blog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/styles/blogpost.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/styles/components/code-style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_layouts/blogpost.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blog/boeing-787-in-flight-entertainment-system-security-fun.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blog/building-a-website-from-scratch.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eleventy.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eleventy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_assets/styles/components/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_assets/styles/components/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.twelvety.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.twelvety.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/projects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_assets/images/car.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_assets/images/projects/ticket2calendar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/_assets/images/projects/ticket2calendar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_assets/images/train.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_assets/styles/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_assets/styles/components/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_assets/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_assets/styles/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_data/navigation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/_data/navigation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/_includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +65,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="SCSS File" />
       </list>
     </option>
@@ -54,23 +80,28 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist/projects" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/_assets/images" />
+      <recent name="$PROJECT_DIR$/dist/projects" />
       <recent name="$PROJECT_DIR$/src/_assets/styles" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/_assets/styles/components" />
-      <recent name="$PROJECT_DIR$/src/_assets/images/icons" />
+      <recent name="$PROJECT_DIR$/src/_assets/images" />
+      <recent name="$PROJECT_DIR$/src/_layouts" />
+      <recent name="$PROJECT_DIR$/src/blog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist" />
+      <recent name="$PROJECT_DIR$/src/blog" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/_assets/images/projects" />
       <recent name="$PROJECT_DIR$/src/_assets/images/projects/bak" />
     </key>
   </component>
@@ -82,7 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610381208472</updated>
-      <workItem from="1610381209767" duration="24435000" />
+      <workItem from="1610381209767" duration="35399000" />
     </task>
     <servers />
   </component>

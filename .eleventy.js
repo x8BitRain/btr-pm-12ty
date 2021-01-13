@@ -1,5 +1,6 @@
 const path = require('path')
 const alias = require('module-alias')
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 // Twelvety options can be found in .twelvety.js
 // Set up alias for Twelvety options
@@ -25,6 +26,7 @@ module.exports = function (config) {
   // Documentation: https://www.11ty.dev/docs/data-deep-merge/
   config.setDataDeepMerge(true)
   config.addPassthroughCopy("src/_assets/images/icons");
+  config.addPlugin(syntaxHighlight);
   // Options for LiquidJS
   // Documentation: https://liquidjs.com/tutorials/options.html
   config.setLiquidOptions({
