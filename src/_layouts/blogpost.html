@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicons -->
     {% include 'head/favicons.html' %}
+
     <!-- Set meta tags -->
     {% assign seoPic = '/blog/' | append: slug | append: '/' | append: img %}
     <title>{{ title }} | {{ meta.site }}</title>
     <meta name="description" content="{{description}}">
     <meta property="og:type" content="website">
     <meta property="twitter:card" content="summary_large_image">
-    <meta name="description" content="{{description}}">
     <meta property="og:title" content="{{title}}">
     <meta property="og:url" content="https://btr.pm/blog/{{slug}}">
     <meta name="og:description" content="{{description}}">
@@ -29,11 +29,6 @@
     <noscript>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=B612&display=swap" />
     </noscript>
-
-    <!-- Set default meta.description in src/_data/meta.json -->
-    {% if meta.description -%}
-      <meta name="description" content="{{ meta.description }}">
-    {%- endif %}
 
     <!-- Page styles will be moved here, see bottom of file -->
   </head>

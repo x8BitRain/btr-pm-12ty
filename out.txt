@@ -1,0 +1,11 @@
+yarn run v1.22.10
+$ cross-env ELEVENTY_ENV=production eleventy
+Writing dist/index.html from ./src/index.html.
+Writing dist/blog/building-a-website-from-scratch/index.html from ./src/blog/building-a-website-from-scratch.md.
+Writing dist/blog/index.html from ./src/blog/index.html.
+Writing dist/projects/index.html from ./src/projects.html.
+Writing dist/blog/boeing-787-in-flight-entertainment-system-security-fun/index.html from ./src/blog/boeing-787-in-flight-entertainment-system-security-fun.md.
+Writing dist/contact/index.html from ./src/contact.html.
+Benchmark (Configuration): "picture" Liquid Shortcode took 4064ms (31.6%, called 103×, 39.5ms each)
+Copied 10 files / Wrote 6 files in 10.46 seconds (v0.11.1)
+Done in 13.46s.

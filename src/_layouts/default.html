@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Set default meta.title and/or meta.site in src/_data/meta.json -->
     <title>{{ meta[page.fileSlug].title }} | {{ meta.site }}</title>
-    <!-- Favicons -->
     {% include 'head/favicons.html' %}
     <!-- Some basic meta tags -->
     {% include 'head/seo.html' %}
-
     <!-- Google fonts async preload etc. -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=B612&display=swap">
@@ -17,12 +15,6 @@
     <noscript>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=B612&display=swap" />
     </noscript>
-
-
-    <!-- Set default meta.description in src/_data/meta.json -->
-    {% if meta[page.fileSlug].description -%}
-      <meta name="description" content="{{ meta.description }}">
-    {%- endif %}
 
     <!-- Page styles will be moved here, see bottom of file -->
   </head>
