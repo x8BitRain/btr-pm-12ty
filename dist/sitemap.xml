@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://btr.pm/</loc>
+  <lastmod>2019-02-24T08:21:54+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://btr.pm/projects/</loc>
+  <lastmod>2019-02-25T07:27:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://btr.pm/projects/singapore-airshow-2018</loc>
+  <lastmod>2019-02-25T07:27:30+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://btr.pm/blog/</loc>
+  <lastmod>2019-02-24T08:21:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://btr.pm/contact/</loc>
+  <lastmod>2019-02-24T08:21:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://btr.pm/blog/building-a-website-from-scratch/</loc>
+  <lastmod>2019-02-21T16:00:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://btr.pm/blog/boeing-787-in-flight-entertainment-system-security-fun/</loc>
+  <lastmod>2019-02-21T16:04:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+</urlset>
