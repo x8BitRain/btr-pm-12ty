@@ -1,5 +1,20 @@
 {
   "site": "btr.pm",
   "title": "btr.pm",
-  "description": "Photos, rambles and web dev stuff"
+  "description": "Photos, rambles and web dev stuff",
+  "projects": {
+    "site": "btr.pm",
+    "title": "Projects",
+    "description": "Web projects"
+  },
+  "blog": {
+    "site": "btr.pm",
+    "title": "Blog",
+    "description": "Rambles"
+  },
+  "contact": {
+    "site": "btr.pm",
+    "title": "Contact",
+    "description": "Contact"
+  }
 }

@@ -1,15 +1,23 @@
-@import "components/item-card";
-
 body {
   margin: 0 10% !important;
 }
 
+#contact {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow:
+    0 8px 25px 0 rgba(0,0,0,0.1),
+    0 0 10px -5px rgba(0,0,0,0.04);
+}
+
 .header, .footer {
   margin: 0 !important;
+  margin-top: 30px !important;
 }
 
 .header {
-  margin-top: 30px !important;
+  margin-top: 30px;
 }
 
 .footer {
@@ -24,3 +32,4 @@ body {
     margin-top: 5px !important;
   }
 }
+

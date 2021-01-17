@@ -76,7 +76,7 @@ function getAverageColor(image) {
   return `${values.length < 4 ? 'rgb' : 'rgba'}(${values.join(',')})`
 }
 
-module.exports = function(src, alt, sizes = '90vw, (min-width: 1280px) 1152px', loading = 'lazy') {
+module.exports = function(src, alt, sizes = '90vw, (min-width: 1280px) 1152px', loading = 'lazy', seo = false) {
   if (alt === undefined)
     throw new Error('Images should always have an alt tag')
 
@@ -163,5 +163,5 @@ module.exports = function(src, alt, sizes = '90vw, (min-width: 1280px) 1152px', 
   // Save cache file
   jsonfile.writeFileSync(CACHE_FILE, cache, { spaces: 2 })
 
-  return picture
+  return seo ? fallback : picture
 }
