@@ -45,6 +45,9 @@
     flex-direction: column !important;
     max-height: unset !important;
     margin: 10px 0 10px 0;
+    .item-links_container {
+      font-size: 19px;
+    }
     .item_card-text {
       z-index: 10;
       margin-top: -55px;
