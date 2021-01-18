@@ -6,12 +6,8 @@
       <change beforePath="$PROJECT_DIR$/dist/blog/boeing-787-in-flight-entertainment-system-security-fun/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog/boeing-787-in-flight-entertainment-system-security-fun/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/blog/building-a-website-from-scratch/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog/building-a-website-from-scratch/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contact/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/projects/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_assets/styles/components/item-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_assets/styles/components/item-card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/_includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610381208472</updated>
-      <workItem from="1610381209767" duration="48675000" />
+      <workItem from="1610381209767" duration="49036000" />
     </task>
     <servers />
   </component>
