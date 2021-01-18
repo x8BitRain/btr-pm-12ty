@@ -149,7 +149,7 @@ module.exports = function(src, alt, sizes = '90vw, (min-width: 1280px) 1152px', 
       <source srcset="${avifFormatDesc.join(',')}" sizes="${sizes}" type="image/avif">
       <source srcset="${webpFormatDesc.join(',')}" sizes="${sizes}" type="image/webp">
       <source srcset="${sameFormatDesc.join(',')}" sizes="${sizes}" type="image/${format}">
-      <img src="${fallback}" alt="${alt}" loading="${loading}">
+      <img src="${fallback}" height="100%" width="100%" alt="${alt}" loading="${loading}">
     </picture>
   `
 

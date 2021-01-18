@@ -4,8 +4,8 @@
     <div class="footer_content">
       <div class="footer_content-links">
         {% for link in navigation.footer %}
-          <a href="{{link.link}}" target="_blank">
-            <img src="{{link.img}}" alt="{{link.name}}">
+          <a href="{{link.link}}" rel="noreferrer" target="_blank">
+            <img src="{{link.img}}" height="24" width="24" alt="{{link.name}}">
           </a>
         {% endfor %}
       </div>

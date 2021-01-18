@@ -49,6 +49,11 @@
       z-index: 10;
       margin-top: -55px;
       width: unset !important;
+      .item-links_container {
+        a {
+          font-size: 22px !important;
+        }
+      }
     }
     .item_card-label {
 
