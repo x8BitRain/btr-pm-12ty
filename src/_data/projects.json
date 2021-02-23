@@ -1,6 +1,27 @@
 {
   "all": [
     {
+      "title": "WebHL",
+      "label": "Preact",
+      "labelColor": "#643cb8",
+      "body": "A 3D webGL GoldSrc map viewer and fork of hlviewer.js that uses the Filesystem Access API to load game assets directly from your machine. You can use this to play back GoldSrc demo files and fly around Half-Life 1, Counter-Strike 1.6 and other GoldSrc based maps.",
+      "links": [
+        {
+          "link": "https://x8bitrain.github.io/webhl/",
+          "linkText": "WebHL"
+        },
+        {
+          "link": "https://github.com/skyrim/hlviewer.js/",
+          "linkText": "hlviewer.js"
+        },
+        {
+          "link": "https://github.com/x8BitRain/webhl/",
+          "linkText": "Github"
+        }
+      ],
+      "image": "webhl.jpg"
+    },
+    {
       "title": "thestarposter.com",
       "label": "Vue",
       "labelColor": "#3fba84",

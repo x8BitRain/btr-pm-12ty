@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bb50285-e9b8-499c-842f-47a6cef03a8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/webhl.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.twelvety.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.twelvety.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/projects/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_assets/images/projects/ticket2calendar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/_assets/images/projects/ticket2calendar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_data/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/_data/projects.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_assets/images/projects" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
@@ -43,11 +44,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/_assets/images/projects" />
       <recent name="$PROJECT_DIR$/dist" />
       <recent name="$PROJECT_DIR$/src/_assets/images" />
       <recent name="$PROJECT_DIR$/dist/projects" />
       <recent name="$PROJECT_DIR$/src/_assets/styles" />
-      <recent name="$PROJECT_DIR$/src/_layouts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dist" />
@@ -67,7 +68,8 @@
       <updated>1610381208472</updated>
       <workItem from="1610381209767" duration="49036000" />
       <workItem from="1613490744542" duration="21000" />
-      <workItem from="1613602331223" duration="334000" />
+      <workItem from="1613602331223" duration="2627000" />
+      <workItem from="1614105397112" duration="592000" />
     </task>
     <servers />
   </component>
