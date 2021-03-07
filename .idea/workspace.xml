@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bb50285-e9b8-499c-842f-47a6cef03a8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/webhl.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.twelvety.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.twelvety.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/projects/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_data/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/_data/projects.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_assets/images/projects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
@@ -70,6 +66,7 @@
       <workItem from="1613490744542" duration="21000" />
       <workItem from="1613602331223" duration="2627000" />
       <workItem from="1614105397112" duration="592000" />
+      <workItem from="1615134644189" duration="52000" />
     </task>
     <servers />
   </component>
