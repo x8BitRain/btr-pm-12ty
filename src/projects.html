@@ -12,7 +12,7 @@
       <div class="item_card-text">
         <h3>
           {{proj.title}}
-          <span class="item_card-label" style="background: {{proj.labelColor}}">{{proj.label}}</span>
+          <span class="item_card-label {% if proj.labelTextDark == 'true' %}item_card-label__dark{% endif %}" style="background: {{proj.labelColor}}">{{proj.label}}</span>
         </h3>
         <p>{{proj.body}}</p>
         {% for link in proj.links %}

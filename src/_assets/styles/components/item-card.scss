@@ -16,7 +16,7 @@
     margin-top: -3px;
     display: inline-block;
     padding: 0 10px;
-    background: #1e87f0;
+    background: #0e76de;
     line-height: 1.5;
     font-size: .875rem;
     color: #fff;
@@ -26,6 +26,9 @@
     text-transform: uppercase;
     transform: scale(0.77);
     transform-origin: left;
+    &__dark {
+      color: #000 !important;
+    }
   }
   .item_card-image {
     display: flex;
@@ -54,9 +57,6 @@
           font-size: 22px !important;
         }
       }
-    }
-    .item_card-label {
-
     }
     .item_card-image {
       display: flex;
