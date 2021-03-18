@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bb50285-e9b8-499c-842f-47a6cef03a8e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/blog/boeing-787-in-flight-entertainment-system-security-fun/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog/boeing-787-in-flight-entertainment-system-security-fun/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/blog/building-a-website-from-scratch/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog/building-a-website-from-scratch/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contact/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fluid.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/fluid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/projects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_assets/styles/components/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_assets/styles/components/button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_assets/styles/components/item-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_assets/styles/components/item-card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_assets/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_assets/styles/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_data/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/_data/projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +33,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1mvjxxADgNLu0vYZ0v4aXXHlLGy" />
   <component name="ProjectViewState">
@@ -66,7 +87,8 @@
       <workItem from="1613490744542" duration="21000" />
       <workItem from="1613602331223" duration="2627000" />
       <workItem from="1614105397112" duration="592000" />
-      <workItem from="1615134644189" duration="52000" />
+      <workItem from="1615134644189" duration="358000" />
+      <workItem from="1616079188093" duration="2205000" />
     </task>
     <servers />
   </component>

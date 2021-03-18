@@ -1,5 +1,5 @@
 node_modules
-
+.DS_Store
 # Twelvety caches responsive images
 # Don't commit otherwise your build won't generate any images
 #.twelvety.cache

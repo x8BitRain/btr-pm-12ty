@@ -21,7 +21,7 @@ button::before {
   left: 0;
   right: 0;
   height: 1px;
-  background-color: #1E87F0;
+  background-color: #0e76de;
   transform-origin: bottom right;
   transform: scaleX(0);
   transition: transform 0.5s ease;
@@ -38,7 +38,7 @@ button::before {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #1E87F0;
+  background-color: #0e76de;
   transform-origin: bottom left;
   transform: scaleX(1);
   transition: transform 0.3s ease-in-out;
@@ -66,7 +66,7 @@ a::before {
   left: 0;
   right: 0;
   height: 1px;
-  background-color: #1E87F0;
+  background-color: #0e76de;
   transform-origin: bottom right;
   transform: scaleX(0);
   transition: transform 0.5s ease;
