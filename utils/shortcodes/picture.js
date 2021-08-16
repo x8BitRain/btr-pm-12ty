@@ -144,9 +144,9 @@ module.exports = function(src, alt, sizes = '90vw, (min-width: 1280px) 1152px', 
   const ratio = Math.round(height * 100000 / width) / 1000
 
   // Responsive picture with srcset and native lazy loading
+  //     <source srcset="${avifFormatDesc.join(',')}" sizes="${sizes}" type="image/avif">
   const picture = `
     <picture style="background-color:${color};padding-bottom:${ratio}%">
-      <source srcset="${avifFormatDesc.join(',')}" sizes="${sizes}" type="image/avif">
       <source srcset="${webpFormatDesc.join(',')}" sizes="${sizes}" type="image/webp">
       <source srcset="${sameFormatDesc.join(',')}" sizes="${sizes}" type="image/${format}">
       <img src="${fallback}" height="100%" width="100%" alt="${alt}" loading="${loading}">
