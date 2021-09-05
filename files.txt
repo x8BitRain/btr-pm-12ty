@@ -1,360 +1,24 @@
-Field1
-0.data
-1000.data
-10003.data
-10004.data
-10005.data
-10006.data
-10007.data
-10041.data
-10051.data
-10071.data
-10081.data
-10082.data
-10083.data
-10084.data
-10085.data
-10091.data
-10092.data
-10094.data
-10095.data
-10096.data
 101 (1).data
-101.data
-10111.data
-10121.data
-10131.data
-10141.data
-10151.data
-10152.data
-10154.data
 102 (1).data
-102.data
 103 (1).data
 104 (1).data
-104.data
-10401.data
-10402.data
-10432.data
-10433.data
-10435.data
-10441.data
-10443.data
-10444.data
-10445.data
-10446.data
-10447.data
-10461.data
-10462.data
-10463.data
-10464.data
-10471.data
-10491.data
-10492.data
 105 (1).data
-10501.data
-10502.data
-10503.data
-10504.data
-10505.data
-10506.data
-10507.data
-10508.data
-10509.data
-10512.data
-10513.data
-10531.data
 106 (1).data
-106.data
-10621.data
-10622.data
-10624.data
-10641.data
-10644.data
-10645.data
-10646.data
-10647.data
-10651.data
-10652.data
 107 (1).data
-107.data
-10701.data
-10702.data
-10704.data
-10705.data
-10707.data
 108 (1).data
 109 (1).data
-109.data
-11.data
-110 (1).data
-110.data
-11002.data
-11021.data
-11022.data
-11041.data
-11051.data
-11081.data
 111 (1).data
-11201.data
-11211.data
-11221.data
-11231.data
-11241.data
-11251.data
-11271.data
-11341.data
-11351.data
-11361.data
-11371.data
-11372.data
-11373.data
-11374.data
-11375.data
-11391.data
-11421.data
-11422.data
-11423.data
-11442.data
-11443.data
-11444.data
-11445.data
-11452.data
-11453.data
-11454.data
-11455.data
-11461.data
-11472.data
-11473.data
-11474.data
-11475.data
-11476.data
-11481.data
-11482.data
-11483.data
-11485.data
-11501.data
-11521.data
-11551.data
-11561.data
-11562.data
-11563.data
-11564.data
-11565.data
-11566.data
-11591.data
-11601.data
-11602.data
-11901.data
-12.data
-1202.data
-1203.data
-1204.data
 1205 (1).data
-1205.data
-1206.data
-1207 (1).data
-1207.data
 1208 (1).data
-1208.data
 1209 (1).data
-1209.data
-12101.data
-12111.data
-12123.data
-12131.data
-12132.data
-12141.data
-12151.data
-12161.data
-12171.data
-12181.data
-12191.data
-12201.data
-1221.data
-12211.data
-12212.data
-12213.data
-12214.data
-12216.data
-12217.data
-12218.data
-1222.data
-12301.data
-1231.data
-12311.data
-12312.data
-1232.data
-12321.data
-12322.data
-12332.data
-12333.data
-12341.data
-12361.data
-12362.data
-12371.data
-12381.data
-12391.data
-12401.data
-1241.data
-12431.data
-12471.data
-12501.data
-1252.data
-12521.data
-1253.data
-12531.data
-1254.data
-1261.data
-12631.data
-12632.data
-12634.data
-12721.data
-12722.data
-12723.data
-12724.data
-12725.data
-12726.data
-12727.data
-12728.data
-12729.data
-12742.data
-12743.data
-12744.data
-12745.data
-12746.data
-12747.data
-12791.data
-12793.data
-12794.data
-12801.data
-1281.data
-12811.data
-12812.data
-12815.data
-1282.data
-12821.data
-12822.data
-12823.data
-12824.data
-12825.data
-12851.data
-12861.data
-12902.data
-12903.data
-1291.data
-12911.data
-130 (1).data
-130.data
-13001.data
-13003.data
-13004.data
-13005.data
-1301.data
-1303.data
-1304.data
-1308.data
 131 (1).data
-131.data
-1311.data
 1312 (1).data
-1312.data
-1314.data
-13141.data
-1315.data
-1316.data
-1318.data
-13181.data
 132 (1).data
-13201.data
-13202.data
-13211.data
-13214.data
-13216.data
-13218.data
-13219.data
-13221.data
-13222.data
-13231.data
-13232.data
-13234.data
-13241.data
-13251.data
-13511.data
-13512.data
-13515.data
-13516.data
-13521.data
-13523.data
-13524.data
-13542.data
-13543.data
-13545.data
-13561.data
-13562.data
-13563.data
-13601.data
-13602.data
-13603.data
-13604.data
-13606.data
-13621.data
-13631.data
-13641.data
-13642.data
-13643.data
-13644.data
-13645.data
-13646.data
-13701.data
-14.data
-15.data
-15002.data
-15003.data
-1501.data
-1503.data
-15081.data
-15083.data
-15084.data
 151 (1).data
-15101.data
-15102.data
-15104.data
-15105.data
-15106.data
-15107.data
-15108.data
-15109.data
-15121.data
-15122.data
-15123.data
-15124.data
-15125.data
-15127.data
-15128.data
-15129.data
-15131.data
-15171.data
-15172.data
-15173.data
-15174.data
-15176.data
-15191.data
-15193.data
-15194.data
-15195.data
-15197.data
 152 (1).data
-152.data
-15201.data
-15202.data
-15203.data
-1521.data
-15211.data
 15212.data
 15221.data
 15241.data
-15261.data
 15273.data
 15274.data
 15276.data
@@ -835,7 +499,6 @@ Field1
 24764.data
 248 (1).data
 248.data
-249 (1).data
 249.data
 250 (1).data
 250.data
@@ -846,7 +509,6 @@ Field1
 251 (1).data
 251.data
 2511.data
-252 (1).data
 252.data
 2521.data
 2523.data
@@ -1268,7 +930,6 @@ Field1
 4402.data
 4403 (1).data
 4403.data
-4404 (1).data
 4404.data
 4405 (1).data
 4405.data
@@ -1278,7 +939,6 @@ Field1
 4414.data
 4415.data
 4416.data
-4417 (1).data
 4417.data
 4418.data
 442.data
@@ -1365,7 +1025,6 @@ Field1
 4763.data
 4771.data
 4772.data
-4774 (1).data
 4774.data
 4775 (1).data
 4776.data
@@ -1378,7 +1037,6 @@ Field1
 4801.data
 4802.data
 4803.data
-481 (1).data
 481.data
 4811.data
 4812 (1).data
@@ -1897,7 +1555,6 @@ Field1
 7911.data
 7912.data
 7921.data
-7941.data
 7942.data
 7944.data
 7945.data
@@ -1939,7 +1596,6 @@ Field1
 8084.data
 8085.data
 8091.data
-81 (1).data
 81.data
 8101.data
 8103.data
@@ -2148,5 +1804,3 @@ Field1
 997.data
 998.data
 999.data
-Steam Emulator and Support Files
-fsum.exe
