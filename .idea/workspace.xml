@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9bb50285-e9b8-499c-842f-47a6cef03a8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_includes/ga.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.twelvety.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.twelvety.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/blog/boeing-787-in-flight-entertainment-system-security-fun/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog/boeing-787-in-flight-entertainment-system-security-fun/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/blog/building-a-website-from-scratch/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog/building-a-website-from-scratch/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contact/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/fluid.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/fluid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/projects/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_assets/styles/components/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_assets/styles/components/button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_assets/styles/components/item-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_assets/styles/components/item-card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_assets/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_assets/styles/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_data/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/_data/projects.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_layouts/blogpost.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/_layouts/blogpost.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/shortcodes/picture.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/shortcodes/picture.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +45,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1mvjxxADgNLu0vYZ0v4aXXHlLGy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -55,6 +61,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -89,6 +99,7 @@
       <workItem from="1614105397112" duration="592000" />
       <workItem from="1615134644189" duration="358000" />
       <workItem from="1616079188093" duration="2205000" />
+      <workItem from="1640242473362" duration="1394000" />
     </task>
     <servers />
   </component>
@@ -105,6 +116,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

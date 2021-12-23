@@ -68,6 +68,7 @@
         <noscript>
           <link rel="stylesheet" href="{{ href }}">
         </noscript>
+        {% include 'ga.html' %}
         <!-- In production, critical CSS will be inserted below -->
       {%- else -%}
         <!-- In development, just include render-blocking stylesheet -->
