@@ -177,18 +177,18 @@
     },
     {
       "title": "btr.pm",
-      "label": "Vue/Nuxt",
-      "labelColor": "#47b984",
-      "labelTextDark": "true",
-      "body": "The website you're on now! Built from scratch using UIKit, VueJS components in NuxtJS, also an experiment in image compression and content delivery optimization. I have a writeup on how I built it originally in plain HTML/CSS on the blog section of the website.",
+      "label": "11ty",
+      "labelColor": "#292929",
+      "labelTextDark": "false",
+      "body": "The website you're on now! Built from scratch using 11ty, also an experiment in image compression and content delivery optimization.",
       "links": [
         {
           "link": "https://btr.pm/",
           "linkText": "btr.pm/"
         },
         {
-          "link": "https://btr.pm/blog/building-a-website-from-scratch/",
-          "linkText": "Writeup"
+          "link": "https://github.com/x8BitRain/btr-pm-12ty",
+          "linkText": "Github"
         }
       ],
       "image": "btrpm.jpg"
@@ -201,7 +201,7 @@
       "body": "A collection of photos taken of the aerobatic displays at the 2018 Singapore Airshow.",
       "links": [
         {
-          "link": "https://btr.pm/projects/singapore-airshow-2018",
+          "link": "singapore-airshow/",
           "linkText": "View Album"
         }
       ],

@@ -6,8 +6,8 @@
 <main class="home">
   <section id="photos">
     {% for i in photos.photos %}
-    {% assign photo = 'photos/' | append: i %}
-      {% picture photo, '' %}
+    {% assign photo = 'photos/' | append: i.img %}
+      {% picture photo, '', '', i.loading, false, i.size %}
     {% endfor %}
   </section>
 

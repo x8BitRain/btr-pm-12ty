@@ -76,7 +76,13 @@ function getAverageColor(image) {
   return `${values.length < 4 ? 'rgb' : 'rgba'}(${values.join(',')})`
 }
 
-module.exports = function(src, alt, sizes = '90vw, (min-width: 1280px) 1152px', loading = 'lazy', seo = false) {
+module.exports = function(src,
+                          alt,
+                          sizes = '90vw, (min-width: 1280px) 1152px',
+                          loading = 'lazy',
+                          seo = false,
+                          aspect = ""
+) {
   if (alt === undefined)
     throw new Error('Images should always have an alt tag')
 
@@ -149,7 +155,7 @@ module.exports = function(src, alt, sizes = '90vw, (min-width: 1280px) 1152px', 
       <source srcset="${avifFormatDesc.join(',')}" sizes="${sizes}" type="image/avif">
       <source srcset="${webpFormatDesc.join(',')}" sizes="${sizes}" type="image/webp">
       <source srcset="${sameFormatDesc.join(',')}" sizes="${sizes}" type="image/${format}">
-      <img src="${fallback}" height="100%" width="100%" alt="${alt}" loading="${loading}">
+      <img src="${fallback}" height="100%" width="100%" alt="${alt}" loading="${loading}" style="aspect-ratio: ${aspect}">
     </picture>
   `
 
