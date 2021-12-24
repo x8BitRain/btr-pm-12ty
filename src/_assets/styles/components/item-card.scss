@@ -33,6 +33,7 @@
   .item_card-image {
     display: flex;
     align-items: center;
+    min-height: 350px;
     picture {
       padding: 0 !important;
     }
