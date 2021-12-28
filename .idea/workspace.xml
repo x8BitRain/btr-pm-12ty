@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bb50285-e9b8-499c-842f-47a6cef03a8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/btr-pm-12ty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/btr-pm-12ty.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/folder2json.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.twelvety.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.twelvety.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/blog/boeing-787-in-flight-entertainment-system-security-fun/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog/boeing-787-in-flight-entertainment-system-security-fun/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/blog/building-a-website-from-scratch/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog/building-a-website-from-scratch/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contact/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/projects/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/projects/singapore-airshow/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/projects/singapore-airshow/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_assets/styles/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_assets/styles/components/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_assets/styles/components/item-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_assets/styles/components/item-card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_data/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/_data/projects.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,11 +73,11 @@
       <recent name="$PROJECT_DIR$/src/_assets/images/projects" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/_assets/images/projects" />
       <recent name="$PROJECT_DIR$/src/projects" />
       <recent name="$PROJECT_DIR$/dist" />
       <recent name="$PROJECT_DIR$/src/blog" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/_assets/images/projects" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -96,7 +94,8 @@
       <workItem from="1614105397112" duration="592000" />
       <workItem from="1615134644189" duration="358000" />
       <workItem from="1616079188093" duration="2205000" />
-      <workItem from="1640242473362" duration="8509000" />
+      <workItem from="1640242473362" duration="9452000" />
+      <workItem from="1640670798400" duration="2101000" />
     </task>
     <servers />
   </component>

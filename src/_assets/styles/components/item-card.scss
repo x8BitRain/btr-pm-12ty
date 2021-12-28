@@ -18,12 +18,13 @@
     padding: 0 10px;
     background: #0e76de;
     line-height: 1.5;
-    font-size: .875rem;
+    font-size: .890rem;
     color: #fff;
     vertical-align: middle;
     white-space: nowrap;
     border-radius: 2px;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    font-weight: 600;
     transform: scale(0.77);
     transform-origin: left;
     &__dark {

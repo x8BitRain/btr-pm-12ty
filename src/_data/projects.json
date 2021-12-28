@@ -25,8 +25,8 @@
     {
       "title": "thestarposter.com",
       "label": "Vue",
-      "labelColor": "#3fba84",
-      "labelTextDark": "true",
+      "labelColor": "#008732",
+      "labelTextDark": "false",
       "body": "A web based interactive poster editor for mobile and desktop for Heureka Prints with a 3D celestial map that accurately displays the night sky at a given date, time and location. Built in VueJS.",
       "links": [
         {
@@ -40,6 +40,25 @@
       ],
       "image": "thestarposter.jpg",
       "video": "thestarposter.mp4"
+    },
+    {
+      "title": "folder2json",
+      "label": "Svelte",
+      "labelColor": "#db3300",
+      "labelTextDark": "false",
+      "body": "A web page that lets you open a local folder and convert its paths and sub-folders into a JSON object via the Filesystem Access API. Written in Svelte",
+      "links": [
+        {
+          "link": "https://x8bitrain.github.io/folder2json/",
+          "linkText": "folder2json"
+        },
+        {
+          "link": "https://github.com/x8BitRain/folder2json",
+          "linkText": "Source"
+        }
+      ],
+      "image": "folder2json.jpg",
+      "video": ""
     },
     {
       "title": "CitySize",
