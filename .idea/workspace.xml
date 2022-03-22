@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bb50285-e9b8-499c-842f-47a6cef03a8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/nightwatch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/pasta.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.twelvety.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.twelvety.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_data/meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/_data/meta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_assets/styles/components/item-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_assets/styles/components/item-card.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_data/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/_data/projects.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,8 @@
       <workItem from="1616079188093" duration="2205000" />
       <workItem from="1640242473362" duration="9452000" />
       <workItem from="1640670798400" duration="2518000" />
-      <workItem from="1647930198390" duration="1335000" />
+      <workItem from="1647930198390" duration="1496000" />
+      <workItem from="1647935628176" duration="1980000" />
     </task>
     <servers />
   </component>

@@ -10,15 +10,21 @@
           {% picture pic, proj.title, '90vw', 'eager' %}
         </div>
         <div class="item_card-text">
-          <h3>
-            {{proj.title}}
-            <span
-              class="item_card-label {% if proj.labelTextDark == 'true' %}item_card-label__dark{% endif %}"
-              style="background: {{proj.labelColor}}"
-            >
-              {{proj.label}}
-            </span>
-          </h3>
+          <div class="item_card-text__title-container">
+            <h3>
+              {{proj.title}}
+            </h3>
+            <div class="item_card-text__labels-container">
+              {% for label in proj.labels %}
+                <span
+                  class="item_card-label {% if label.labelTextDark == 'true' %}item_card-label__dark{% endif %}"
+                  style="background: {{label.color}}"
+                >
+                  {{label.text}}
+                </span>
+              {% endfor %}
+            </div>
+          </div>
           <p>{{proj.body}}</p>
           {% for link in proj.links %}
             <div class="item-links_container">

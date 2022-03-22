@@ -6598,5 +6598,49 @@
       "1760": "/_assets/f1eb9e5e.avif",
       "1920": "/_assets/67c1af31.avif"
     }
+  },
+  "cf48e0a3": {
+    "same": {
+      "160": "/_assets/aaf9abbd.jpeg",
+      "320": "/_assets/652fdf4e.jpeg",
+      "480": "/_assets/8f83950b.jpeg",
+      "640": "/_assets/1e66d656.jpeg",
+      "800": "/_assets/39ec0ce5.jpeg",
+      "960": "/_assets/7ffc4903.jpeg",
+      "1120": "/_assets/47664371.jpeg",
+      "1280": "/_assets/a0b53bbf.jpeg",
+      "1440": "/_assets/f4fba742.jpeg",
+      "1600": "/_assets/18f82666.jpeg",
+      "1760": "/_assets/eddc0f04.jpeg",
+      "1920": "/_assets/e1130b2e.jpeg"
+    },
+    "webp": {
+      "160": "/_assets/ba9f891d.webp",
+      "320": "/_assets/d53da748.webp",
+      "480": "/_assets/ff1c0346.webp",
+      "640": "/_assets/73ee9483.webp",
+      "800": "/_assets/abd2a371.webp",
+      "960": "/_assets/5ca0ad3e.webp",
+      "1120": "/_assets/3a34e82f.webp",
+      "1280": "/_assets/cd57c9c0.webp",
+      "1440": "/_assets/012e6e59.webp",
+      "1600": "/_assets/65610995.webp",
+      "1760": "/_assets/3fa286f6.webp",
+      "1920": "/_assets/23594119.webp"
+    },
+    "avif": {
+      "160": "/_assets/7b631a90.avif",
+      "320": "/_assets/ea97bfd0.avif",
+      "480": "/_assets/7f112e8c.avif",
+      "640": "/_assets/731d1c69.avif",
+      "800": "/_assets/57430b6f.avif",
+      "960": "/_assets/38fd041b.avif",
+      "1120": "/_assets/a6c03fc0.avif",
+      "1280": "/_assets/bd46b272.avif",
+      "1440": "/_assets/4e6b00a3.avif",
+      "1600": "/_assets/974f1b19.avif",
+      "1760": "/_assets/07e8c2e9.avif",
+      "1920": "/_assets/bfc460bb.avif"
+    }
   }
 }

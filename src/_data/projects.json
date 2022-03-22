@@ -2,9 +2,13 @@
   "all": [
     {
       "title": "Nightwatch",
-      "label": "EmberJS",
-      "labelColor": "#d4412d",
-      "labelTextDark": "false",
+      "labels": [
+        {
+          "text": "EmberJS",
+          "color": "#d4412d",
+          "labelTextDark": "false"
+        }
+      ],
       "body": "An SEO monitoring tool for websites, search keywords and competitor websites. It also displays aggregate data, analytics and keyword metrics in graphs with customizable dimensions. Written in Ember, I rebuilt most of the frontend as a part of a large redesign effort and moved the build pipeline to Embroider as well as updating the frontend tooling for a better developer experience.",
       "links": [
         {
@@ -20,9 +24,13 @@
     },
     {
       "title": "WebHL",
-      "label": "Preact",
-      "labelColor": "#643cb8",
-      "labelTextDark": "false",
+      "labels": [
+        {
+          "text": "Preact",
+          "color": "#643cb8",
+          "labelTextDark": "false"
+        }
+      ],
       "body": "A 3D webGL GoldSrc map viewer and fork of hlviewer.js that uses the Filesystem Access API to load game assets directly from your machine. You can use this to play back GoldSrc demo files and fly around Half-Life 1, Counter-Strike 1.6 and other GoldSrc based maps.",
       "links": [
         {
@@ -41,10 +49,52 @@
       "image": "webhl.jpg"
     },
     {
+      "title": "Pasta.to",
+      "labels": [
+        {
+          "text": "Vue",
+          "color": "#008732",
+          "labelTextDark": "false"
+        },
+        {
+          "text": "Electron",
+          "color": "#a1ecf9",
+          "labelTextDark": "true"
+        },
+        {
+          "text": "PWA",
+          "color": "#5a05c9",
+          "labelTextDark": "false"
+        },
+        {
+          "text": "Rails",
+          "color": "#c00",
+          "labelTextDark": "false"
+        }
+      ],
+      "body": "[indev] A clipboard sharing PWA, web app and desktop client built in Vue 3 that aims to make cross device file sharing easy and fast. Backend written in Rails 6 and utilizing websockets from AnyCable for fast realtime communication. Electron 16 is used to build the desktop client.",
+      "links": [
+        {
+          "link": "https://pasta.to/",
+          "linkText": "Pasta.to (coming soon)"
+        }
+      ],
+      "image": "pasta.jpg"
+    },
+    {
       "title": "thestarposter.com",
-      "label": "Vue",
-      "labelColor": "#008732",
-      "labelTextDark": "false",
+      "labels": [
+        {
+          "text": "Vue",
+          "color": "#008732",
+          "labelTextDark": "false"
+        },
+        {
+          "text": "11ty",
+          "color": "#292929",
+          "labelTextDark": "false"
+        }
+      ],
       "body": "A web based interactive poster editor for mobile and desktop for Heureka Prints with a 3D celestial map that accurately displays the night sky at a given date, time and location. Built in VueJS.",
       "links": [
         {
@@ -61,9 +111,13 @@
     },
     {
       "title": "folder2json",
-      "label": "Svelte",
-      "labelColor": "#db3300",
-      "labelTextDark": "false",
+      "labels": [
+        {
+          "text": "Svelte",
+          "color": "#db3300",
+          "labelTextDark": "false"
+        }
+      ],
       "body": "A web page that lets you open a local folder and convert its paths and sub-folders into a JSON object via the Filesystem Access API. Written in Svelte",
       "links": [
         {
@@ -80,9 +134,13 @@
     },
     {
       "title": "CitySize",
-      "label": "React",
-      "labelColor": "#61dbfb",
-      "labelTextDark": "true",
+      "labels": [
+        {
+          "text": "React",
+          "color": "#61dbfb",
+          "labelTextDark": "true"
+        }
+      ],
       "body": "A progressive web app and interactive map built with leaflet in React that lets you accurately compare geographic features like countries, cities, states and even buildings. Inspired by thetruesizeof.com and powered by nominatim.openstreetmap.org GeoJSON data.",
       "links": [
         {
@@ -99,9 +157,13 @@
     },
     {
       "title": "SVG2PNG",
-      "label": "React",
-      "labelColor": "#61dbfb",
-      "labelTextDark": "true",
+      "labels": [
+        {
+          "text": "React",
+          "color": "#61dbfb",
+          "labelTextDark": "true"
+        }
+      ],
       "body": "A small set of tools for exporting SVGs to scaled PNGs and data URIs wrapped into a simple web UI written in React.",
       "links": [
         {
@@ -120,6 +182,13 @@
       "label": "Gitbook",
       "labelColor": "#264de4",
       "labelTextDark": "false",
+      "labels": [
+        {
+          "text": "Gitbook",
+          "color": "#264de4",
+          "labelTextDark": "false"
+        }
+      ],
       "body": "An open source wiki running GitBook where documentation on the art of corrupting video games is available.\n\n",
       "links": [
         {
@@ -135,9 +204,13 @@
     },
     {
       "title": "SVG/Emoji Corrupt",
-      "label": "React",
-      "labelColor": "#61dbfb",
-      "labelTextDark": "true",
+      "labels": [
+        {
+          "text": "React",
+          "color": "#61dbfb",
+          "labelTextDark": "true"
+        }
+      ],
       "body": "An experiment in SVG manipulation built in React. The app takes an inline SVG, reads the d=\"\" paths and replaces the targeted numbers with the numbers you set in the control panel. All the emojis in the menu are SVGs loaded from the Twemoji CDN.",
       "links": [
         {
@@ -154,9 +227,13 @@
     },
     {
       "title": "Ticket2Calendar",
-      "label": "React/XZingJS",
-      "labelColor": "#61dbfb",
-      "labelTextDark": "true",
+      "labels": [
+        {
+          "text": "React/XZingJS",
+          "color": "#61dbfb",
+          "labelTextDark": "true"
+        }
+      ],
       "body": "A fully clientside boarding pass scanner in your browser. Built in React, using a web assembly build of the barcode scanning library xzing. Take any boarding pass with a PDF-417 or Aztec barcode and scan it to view your flight itinerary and add it to any popular online calendar. Only works on stable Chrome unfortunately",
       "links": [
         {
@@ -172,9 +249,13 @@
     },
     {
       "title": "thepixelgrid.org",
-      "label": "Rails",
-      "labelColor": "#c00",
-      "labelTextDark": "false",
+      "labels": [
+        {
+          "text": "Rails",
+          "color": "#c00",
+          "labelTextDark": "false"
+        }
+      ],
       "body": "Built in collaboration with Max Synnott pixelGrid is a realtime collaborative online canvas anyone can draw pixels on for charity, inspired by Reddit's /r/place experiment. The pixel placements update in real time so you can draw with others! The app is a fixed height HTML5 canvas built on Rails, uses websockets for real time pixel placement updates, sidekiq for queued database updates and UIKit for the frontend.\n\n",
       "links": [
         {
@@ -186,9 +267,13 @@
     },
     {
       "title": "Rumreggae-Bali.net",
-      "label": "HTML/CSS/WP",
-      "labelColor": "#264de4",
-      "labelTextDark": "false",
+      "labels": [
+        {
+          "text": "HTML/CSS/WP",
+          "color": "#264de4",
+          "labelTextDark": "false"
+        }
+      ],
       "body": "The website and bio of Rum Reggae Indonesia, a traditional batik shirt company. Designed and themed around photos of their factory and products. Also an experiment in staticizing WordPress pages, hosted on GitHub pages.\n\n",
       "links": [
         {
@@ -200,9 +285,13 @@
     },
     {
       "title": "SourceRuns Forum",
-      "label": "CSS",
-      "labelColor": "#264de4",
-      "labelTextDark": "false",
+      "labels": [
+        {
+          "text": "CSS",
+          "color": "#264de4",
+          "labelTextDark": "false"
+        }
+      ],
       "body": "A forum for the Source Engine speedrunning community. I made the CSS layout for the SMF forum software they used to run (now uses Discourse).",
       "links": [
         {
@@ -214,9 +303,13 @@
     },
     {
       "title": "btr.pm",
-      "label": "11ty",
-      "labelColor": "#292929",
-      "labelTextDark": "false",
+      "labels": [
+        {
+          "text": "11ty",
+          "color": "#292929",
+          "labelTextDark": "false"
+        }
+      ],
       "body": "The website you're on now! Built from scratch using 11ty, also an experiment in image compression and content delivery optimization.",
       "links": [
         {
@@ -232,9 +325,13 @@
     },
     {
       "title": "Singapore Airshow 2018",
-      "label": "PHOTOS",
-      "labelColor": "#264de4",
-      "labelTextDark": "false",
+      "labels": [
+        {
+          "text": "Photos",
+          "color": "#264de4",
+          "labelTextDark": "false"
+        }
+      ],
       "body": "A collection of photos taken of the aerobatic displays at the 2018 Singapore Airshow.",
       "links": [
         {
