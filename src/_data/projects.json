@@ -1,6 +1,24 @@
 {
   "all": [
     {
+      "title": "Nightwatch",
+      "label": "EmberJS",
+      "labelColor": "#d4412d",
+      "labelTextDark": "false",
+      "body": "An SEO monitoring tool for websites, search keywords and competitor websites. It also displays aggregate data, analytics and keyword metrics in graphs with customizable dimensions. Written in Ember, I rebuilt most of the frontend as a part of a large redesign effort and moved the build pipeline to Embroider as well as updating the frontend tooling for a better developer experience.",
+      "links": [
+        {
+          "link": "https://nightwatch.io/",
+          "linkText": "Nightwatch"
+        },
+        {
+          "link": "https://github.com/embroider-build/embroider/",
+          "linkText": "Embroider"
+        }
+      ],
+      "image": "nightwatch.jpg"
+    },
+    {
       "title": "WebHL",
       "label": "Preact",
       "labelColor": "#643cb8",

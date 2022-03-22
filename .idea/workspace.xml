@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bb50285-e9b8-499c-842f-47a6cef03a8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/folder2json.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_assets/images/projects/nightwatch.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.twelvety.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.twelvety.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/boeing-787-in-flight-entertainment-system-security-fun/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog/boeing-787-in-flight-entertainment-system-security-fun/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/building-a-website-from-scratch/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog/building-a-website-from-scratch/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/projects/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_assets/styles/components/item-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_assets/styles/components/item-card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_data/meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/_data/meta.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_data/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/_data/projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/projects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_assets/images/projects" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -66,11 +64,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/_assets/images/projects" />
       <recent name="$PROJECT_DIR$/src/projects" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/_data" />
       <recent name="$PROJECT_DIR$/src/_assets/images/photos/singapore-airshow" />
-      <recent name="$PROJECT_DIR$/src/_assets/images/projects" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/_assets/images/projects" />
@@ -95,7 +93,8 @@
       <workItem from="1615134644189" duration="358000" />
       <workItem from="1616079188093" duration="2205000" />
       <workItem from="1640242473362" duration="9452000" />
-      <workItem from="1640670798400" duration="2101000" />
+      <workItem from="1640670798400" duration="2518000" />
+      <workItem from="1647930198390" duration="1335000" />
     </task>
     <servers />
   </component>
