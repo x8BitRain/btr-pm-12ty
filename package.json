@@ -38,7 +38,7 @@
     "postcss": "^8.2.10",
     "postcss-preset-env": "^6.7.0",
     "rimraf": "^3.0.2",
-    "sharp": "^0.30.3",
+    "sharp": "^0.30.5",
     "tinyify": "^3.0.0",
     "uglify-js": "^3.12.4"
   },
